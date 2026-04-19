@@ -1,0 +1,1 @@
+2026-04-13 18:57:23.117 [error] Failed to set sticky bit on /tmp/nye-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nye-code-zsh'

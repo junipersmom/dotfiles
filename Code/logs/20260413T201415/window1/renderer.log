@@ -1,0 +1,15 @@
+2026-04-13 20:14:19.600 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 30ms.
+2026-04-13 20:14:19.894 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 38ms.
+2026-04-13 20:14:19.995 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 43ms.
+2026-04-13 20:14:21.858 [info] Started local extension host with pid 21730.
+2026-04-13 20:14:22.768 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-13 20:14:25.028 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-13 20:14:30.633 [error] [Extension Host] (node:21730) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-04-13 20:14:32.483 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-13 20:14:32.607 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2026-04-13 20:14:32.608 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2026-04-13 20:14:34.748 [info] [perf] Render performance baseline is 173ms
+2026-04-13 20:35:41.013 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/ZDkyMzhmZWYtZWFjZS00YWZiLWI2NDAtNWNkYWQ2YzQzYmY2. requestInProgress=false, pendingRequests=0
+2026-04-13 20:35:41.015 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/ZDkyMzhmZWYtZWFjZS00YWZiLWI2NDAtNWNkYWQ2YzQzYmY2. requestInProgress=false, pendingRequests=0
+2026-04-14 08:14:31.316 [info] Auto updating outdated extensions. github.vscode-pull-request-github

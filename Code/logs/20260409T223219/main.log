@@ -1,0 +1,8 @@
+2026-04-09 22:32:21.142 [info] update#setState idle
+2026-04-09 22:32:21.163 [error] Error: Unable to write file '/home/nye/.config/Code/User/globalStorage/storage.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, rename '/home/nye/.config/Code/User/globalStorage/storage.json.vsctmp' -> '/home/nye/.config/Code/User/globalStorage/storage.json')
+    at vs.writeFile (file:///usr/share/code/resources/app/out/main.js:613:7941)
+    at async dy.doSave (file:///usr/share/code/resources/app/out/main.js:414:95861)
+2026-04-09 22:32:51.147 [info] update#setState checking for updates
+2026-04-09 22:32:51.285 [info] update#setState idle
+2026-04-09 23:32:51.158 [info] update#setState checking for updates
+2026-04-09 23:32:51.478 [info] update#setState idle

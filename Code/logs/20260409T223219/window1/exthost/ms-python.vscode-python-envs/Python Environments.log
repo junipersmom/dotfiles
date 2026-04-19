@@ -1,0 +1,50 @@
+2026-04-09 22:45:03.590 [info] Python-envs extension version: 1.26.0
+2026-04-09 22:45:03.590 [info] 
+=== Python Envs Configuration Levels ===
+2026-04-09 22:45:03.590 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-04-09 22:45:03.590 [info] [pet] Starting Python Locator /home/nye/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64/python-env-tools/bin/pet server
+2026-04-09 22:45:03.600 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-04-09 22:45:03.605 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/nye/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-04-09 22:45:03.882 [info] Discovered env: /usr/bin/python3
+2026-04-09 22:45:04.086 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-04-09 22:45:04.094 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/home/nye/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64/dist/extension.js:2:594057)
+	at runNextTicks (node:internal/process/task_queues:64:5)
+	at process.processImmediate (node:internal/timers:452:9)
+	at async L (/home/nye/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64/dist/extension.js:2:594182)
+	at async t.registerCondaFeatures (/home/nye/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64/dist/extension.js:2:614079)
+	at async t.safeRegister (/home/nye/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64/dist/extension.js:2:282143)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/nye/.vscode/extensions/ms-python.vscode-python-envs-1.26.0-linux-x64/dist/extension.js:2:741228)]
+2026-04-09 22:45:04.103 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":443,"breakdown":{"GlobalVirtualEnvs":0,"Locators":262,"Path":442,"Workspaces":0},"locators":{"Conda":124,"Homebrew":0,"LinuxGlobal":256,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-04-09 22:45:04.247 [info] Discovered env: /usr/bin/python3
+2026-04-09 22:45:04.282 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-04-09 22:45:04.283 [info] Pipenv not found
+2026-04-09 22:45:04.284 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-04-09 22:45:04.292 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":174,"breakdown":{"GlobalVirtualEnvs":0,"Locators":141,"Path":174,"Workspaces":0},"locators":{"Conda":116,"Homebrew":0,"LinuxGlobal":134,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-04-09 22:45:04.418 [info] Discovered env: /usr/bin/python3
+2026-04-09 22:45:04.445 [warning] No workspace folders found for relative search path: ./**/.venv
+2026-04-09 22:45:04.447 [info] Pyenv not found, turning off pyenv features.
+2026-04-09 22:45:04.456 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":148,"breakdown":{"GlobalVirtualEnvs":0,"Locators":123,"Path":148,"Workspaces":0},"locators":{"Conda":109,"Homebrew":0,"LinuxGlobal":118,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-04-09 22:45:04.586 [info] Discovered env: /usr/bin/python3
+2026-04-09 22:45:04.619 [info] Poetry not found, turning off poetry features.
+2026-04-09 22:45:04.631 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-04-09 22:45:04.657 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":159,"breakdown":{"GlobalVirtualEnvs":0,"Locators":128,"Path":158,"Workspaces":0},"locators":{"Conda":114,"Homebrew":0,"LinuxGlobal":121,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-04-09 22:45:04.763 [info] [interpreterSelection] global: Python 3.12.3 (source: autoDiscovery)
+2026-04-09 22:45:04.792 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-04-09 22:45:04.817 [info] Python API: Changed environment from undefined to Python 3.12.3 for: global
+2026-04-09 22:45:04.817 [info] Internal: Changed environment from undefined to Python 3.12.3 for: global
