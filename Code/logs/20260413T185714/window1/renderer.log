@@ -1,0 +1,7 @@
+2026-04-13 18:57:17.629 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 23ms.
+2026-04-13 18:57:17.763 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 24ms.
+2026-04-13 18:57:19.222 [info] Started local extension host with pid 9512.
+2026-04-13 18:57:21.834 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-13 18:57:22.322 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-13 18:57:26.921 [error] [Extension Host] (node:9512) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

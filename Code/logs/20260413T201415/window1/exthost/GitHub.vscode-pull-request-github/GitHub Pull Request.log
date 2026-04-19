@@ -1,0 +1,25 @@
+2026-04-13 20:14:30.828 [warning] /home/nye/.ssh/config: ENOENT: no such file or directory, open '/home/nye/.ssh/config'
+2026-04-13 20:14:30.828 [info] [Activation] Extension version: 0.134.0
+2026-04-13 20:14:30.881 [info] [TemporaryState] Error in initialization: Unable to delete nonexistent file 'vscode-userdata:/home/nye/.config/Code/User/globalStorage/github.vscode-pull-request-github/temp'
+2026-04-13 20:14:32.157 [info] [Activation] Registering built in git provider.
+2026-04-13 20:14:32.157 [info] [Activation] Looking for git repository
+2026-04-13 20:14:32.157 [info] [Activation] Found 0 repositories during activation
+2026-04-13 20:14:32.157 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-04-13 20:14:32.161 [info] [GitAPI] Registering git provider
+2026-04-13 20:14:32.252 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-04-13 20:47:35.199 [info] [GitAPI] Repository file:///home/nye/.oh-my-zsh has been opened
+2026-04-13 20:47:35.206 [info] [Review+0] Validate state in progress
+2026-04-13 20:47:35.206 [info] [Review+0] Validating state...
+2026-04-13 20:47:35.214 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-04-13 20:47:35.214 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/nye/.oh-my-zsh
+2026-04-13 20:47:35.219 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2026-04-13 20:47:35.220 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-04-13 20:47:35.358 [info] [FolderRepositoryManager+0] GlobalState does not exist for assignableUsers.
+2026-04-13 20:47:35.737 [info] [Review+0] Validate state in progress
+2026-04-13 20:47:35.737 [info] [Review+0] Validating state...
+2026-04-13 20:47:35.755 [info] [Activation] Repo state for file:///home/nye/.oh-my-zsh changed.
+2026-04-13 20:47:35.755 [info] [Activation] Repo file:///home/nye/.oh-my-zsh has already been setup.
+2026-04-13 20:47:35.932 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/nye/.oh-my-zsh
+2026-04-13 20:47:35.933 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-04-13 20:47:36.019 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2026-04-13 20:47:36.021 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master

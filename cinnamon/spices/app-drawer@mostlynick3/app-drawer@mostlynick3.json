@@ -1,0 +1,228 @@
+{
+    "navigation": {
+        "type": "header",
+        "description": "Navigation Settings"
+    },
+    "navigationMode": {
+        "type": "combobox",
+        "default": "scroll-vertical",
+        "description": "Navigation mode",
+        "options": {
+            "Button Navigation": "buttons",
+            "Scroll Horizontal": "scroll-horizontal",
+            "Scroll Vertical": "scroll-vertical"
+        },
+        "value": "scroll-vertical"
+    },
+    "layout": {
+        "type": "header",
+        "description": "Layout Settings"
+    },
+    "columns": {
+        "type": "spinbutton",
+        "default": 8,
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "description": "Columns per page",
+        "value": 8
+    },
+    "rows": {
+        "type": "spinbutton",
+        "default": 4,
+        "min": 2,
+        "max": 8,
+        "step": 1,
+        "description": "Rows per page",
+        "value": 4
+    },
+    "iconSize": {
+        "type": "spinbutton",
+        "default": 64,
+        "min": 32,
+        "max": 128,
+        "step": 8,
+        "description": "Icon size (px)",
+        "value": 64
+    },
+    "padding": {
+        "type": "spinbutton",
+        "default": 18,
+        "min": 4,
+        "max": 48,
+        "step": 2,
+        "description": "Padding (px)",
+        "value": 18
+    },
+    "fontSize": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 8,
+        "max": 18,
+        "step": 1,
+        "description": "Label font size (pt)",
+        "value": 10
+    },
+    "features": {
+        "type": "header",
+        "description": "Features"
+    },
+    "enableSearch": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Enable search bar",
+        "value": true
+    },
+    "autoFocusSearch": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Auto-focus search bar when opened",
+        "dependency": "enableSearch",
+        "value": false
+    },
+    "enableFavorites": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Enable favorites",
+        "value": true
+    },
+    "favoriteApps": {
+        "type": "generic",
+        "default": [],
+        "value": []
+    },
+    "overlay-keybinding": {
+        "type": "keybinding",
+        "default": "<Super>a",
+        "description": "Keyboard shortcut to toggle overlay",
+        "value": "<Super>a"
+    },
+    "appearance": {
+        "type": "header",
+        "description": "Appearance Settings"
+    },
+    "bgColor": {
+        "type": "colorchooser",
+        "default": "rgb(0, 0, 0)",
+        "description": "Background color",
+        "value": "rgb(0, 0, 0)"
+    },
+    "bgOpacity": {
+        "type": "spinbutton",
+        "default": 95,
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "units": "%",
+        "description": "Background opacity",
+        "value": 95
+    },
+    "containerColor": {
+        "type": "colorchooser",
+        "default": "rgb(128, 0, 128)",
+        "description": "Container color",
+        "value": "rgb(128, 0, 128)"
+    },
+    "containerOpacity": {
+        "type": "spinbutton",
+        "default": 8,
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "units": "%",
+        "description": "Container opacity",
+        "value": 8
+    },
+    "boxColor": {
+        "type": "colorchooser",
+        "default": "rgb(75, 0, 130)",
+        "description": "Box color",
+        "value": "rgb(75, 0, 130)"
+    },
+    "boxOpacity": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "units": "%",
+        "description": "Box opacity",
+        "value": 5
+    },
+    "boxHoverColor": {
+        "type": "colorchooser",
+        "default": "rgb(255, 255, 255)",
+        "description": "Box hover color",
+        "value": "rgb(255, 255, 255)"
+    },
+    "boxHoverOpacity": {
+        "type": "spinbutton",
+        "default": 15,
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "units": "%",
+        "description": "Box hover opacity",
+        "value": 15
+    },
+    "animations": {
+        "type": "header",
+        "description": "Animation Settings"
+    },
+    "enableAnimations": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Enable animations",
+        "value": true
+    },
+    "animationDuration": {
+        "type": "spinbutton",
+        "default": 600,
+        "min": 100,
+        "max": 1000,
+        "step": 50,
+        "units": "ms",
+        "description": "Animation duration",
+        "dependency": "enableAnimations",
+        "value": 600
+    },
+    "openAnimationType": {
+        "type": "combobox",
+        "default": "scale",
+        "description": "Open animation",
+        "options": {
+            "Fade": "fade",
+            "Scale": "scale",
+            "Slide Up": "slide-up",
+            "Zoom": "zoom"
+        },
+        "dependency": "enableAnimations",
+        "value": "scale"
+    },
+    "closeAnimationType": {
+        "type": "combobox",
+        "default": "fade",
+        "description": "Close animation",
+        "options": {
+            "Fade": "fade",
+            "Scale": "scale",
+            "Slide Down": "slide-down",
+            "Zoom": "zoom"
+        },
+        "dependency": "enableAnimations",
+        "value": "fade"
+    },
+    "pageAnimationType": {
+        "type": "combobox",
+        "default": "crossfade",
+        "description": "Button navigation page animation",
+        "options": {
+            "Fade": "fade",
+            "Slide": "slide",
+            "Crossfade": "crossfade"
+        },
+        "dependency": "enableAnimations",
+        "value": "crossfade"
+    },
+    "__md5__": "8d405301b2537d0007c68a9656e8d697"
+}

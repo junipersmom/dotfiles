@@ -1,0 +1,4 @@
+2026-04-09 22:40:32.629 [error] #11: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-04-09 22:40:32.711 [error] #12: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled
+2026-04-09 22:40:32.712 [error] #13: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2026-04-09 22:42:57.431 [error] #34: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

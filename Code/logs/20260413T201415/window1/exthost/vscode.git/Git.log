@@ -1,0 +1,39 @@
+2026-04-13 20:14:29.826 [info] [main] Log level: Info
+2026-04-13 20:14:29.826 [info] [main] Validating found git in: "git"
+2026-04-13 20:14:29.826 [info] [main] Using git "2.43.0" from "git"
+2026-04-13 20:14:29.826 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-13 20:14:29.826 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-13 20:16:21.333 [info] > git rev-parse --show-toplevel [10ms]
+2026-04-13 20:16:21.333 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-13 20:47:30.492 [info] > git rev-parse --show-toplevel [17ms]
+2026-04-13 20:47:30.528 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [19ms]
+2026-04-13 20:47:35.206 [info] [Model][openRepository] Opened repository (path): /home/nye/.oh-my-zsh
+2026-04-13 20:47:35.206 [info] [Model][openRepository] Opened repository (real path): /home/nye/.oh-my-zsh
+2026-04-13 20:47:35.206 [info] [Model][openRepository] Opened repository (kind): repository
+2026-04-13 20:47:35.249 [info] > git config --get commit.template [7ms]
+2026-04-13 20:47:35.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2026-04-13 20:47:35.343 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-04-13 20:47:35.714 [info] > git status -z -uall [405ms]
+2026-04-13 20:47:35.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2026-04-13 20:47:35.880 [info] > git config --local -l [126ms]
+2026-04-13 20:47:35.911 [info] > git check-ignore -v -z --stdin [8ms]
+2026-04-13 20:47:35.914 [info] > git config --get --local branch.master.vscode-merge-base [34ms]
+2026-04-13 20:47:35.914 [warning] [Git][config] git config failed: Failed to execute git
+2026-04-13 20:47:35.930 [info] > git config --get commit.template [73ms]
+2026-04-13 20:47:35.956 [info] > git reflog master --grep-reflog=branch: Created from *. [27ms]
+2026-04-13 20:47:36.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [26ms]
+2026-04-13 20:47:36.016 [info] > git config --local -l [65ms]
+2026-04-13 20:47:36.023 [info] > git config --add --local branch.master.vscode-merge-base origin/master [8ms]
+2026-04-13 20:47:36.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2026-04-13 20:47:36.050 [info] > git config --get commit.template [6ms]
+2026-04-13 20:47:36.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2026-04-13 20:47:36.128 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-04-13 20:47:36.257 [info] > git status -z -uall [160ms]
+2026-04-13 20:47:36.298 [info] > git merge-base refs/heads/master refs/remotes/origin/master [18ms]
+2026-04-13 20:47:36.320 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 7c10d9839f05b8b73e26aa4e0f04cc886fbba6a6...refs/remotes/origin/master -- [5ms]
+2026-04-13 20:47:36.321 [info] > git merge-base refs/heads/master refs/remotes/origin/master [25ms]
+2026-04-13 20:47:36.339 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 7c10d9839f05b8b73e26aa4e0f04cc886fbba6a6...refs/remotes/origin/master -- [4ms]
+2026-04-13 20:48:23.000 [info] > git rev-parse --show-toplevel [10ms]
+2026-04-13 20:48:23.001 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-04-13 21:37:02.312 [info] > git rev-parse --show-toplevel [8ms]
+2026-04-13 21:37:02.313 [info] fatal: not a git repository (or any of the parent directories): .git
